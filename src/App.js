@@ -1,11 +1,14 @@
 import React from 'react';
-import { Button } from '@mui/material'
+import { Button, Typography, Box } from '@mui/material'
 
 const App = () => {
   return (
-    <div>
+    <Box>
       <Button variant='contained' color='slateBlue'>Test</Button>
-    </div>
+      <Typography variant='body1'>
+        Hello World!
+      </Typography>
+    </Box>
   );
 }
 
