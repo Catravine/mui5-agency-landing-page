@@ -22,7 +22,8 @@ const styles = {
     // display: 'flex',
     padding: '0',
     marginRight: '44px',
-    color: '#000'
+    color: '#000',
+    marginBottom: '10px'
   }
 }
 
@@ -31,7 +32,7 @@ const Navbar = () => {
     <Box 
       xs={{
         flexGrow: 1, 
-        // display: {lg: 'flex'}, 
+        display: {lg: 'flex'}, 
         justifyContent: 'flex-end'
       }}
     >

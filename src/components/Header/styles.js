@@ -1,0 +1,30 @@
+const styles = {
+  appBar: (theme) => ({
+    background: '#fff',
+    boxShadow: 'none',
+    [theme.breakpoints.up('lg')]: {
+      borderBottom: '0.5px solid #777feb',
+      padding: '20px 0',
+      margin: 'auto', 
+      maxWidth: '1240px'
+    }
+  }),
+  container: (theme) => ({
+    [theme.breakpoints.up('lg')]: {
+      padding: 0,
+      margin: 0
+    }
+  }),
+  logoDesk: {
+    marginRight: 2,
+    display: { xs: 'none', lg: 'flex' },
+    flexGrow: 1,
+  },
+  logoMob: {
+    marginRight: 2,
+    display: { xs: 'flex', lg: 'none' },
+    flexGrow: 1,
+  },
+};
+
+export default styles;

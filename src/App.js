@@ -1,11 +1,11 @@
 import React from 'react';
 import { Box } from '@mui/material'
-import Navbar from './components/Navbar'
+import Header from './components/Header'
 
 const App = () => {
   return (
     <Box>
-      <Navbar />
+      <Header />
     </Box>
   );
 }
