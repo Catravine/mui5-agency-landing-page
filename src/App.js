@@ -3,6 +3,7 @@ import { Box } from '@mui/material';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import CreativeDesign from './components/CreativeDesign';
+import Experience from './components/Experience';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <Hero />
       <CreativeDesign />
+      <Experience />
     </Box>
   );
 }

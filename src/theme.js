@@ -46,6 +46,10 @@ const theme = createTheme({
         fontSize: '24px',
         lineHeight: '29px',
       },
+    },
+    someStyle: {
+      fontFamily: 'Montserrat, sans-serif',
+      textTransform: 'capitalize',
     }
   }
 });
